@@ -1,0 +1,17 @@
+:root {
+  --paper: #f2eee5;
+  --paper-dark: #e9e3d7;
+  --ink: #201e1b;
+  --ink-light: #5e5951;
+  --muted: #8a8378;
+  --burgundy: #812b38;
+  --burgundy-dark: #61202b;
+  --rule: #c8c0b3;
+
+  --display: "Barlow Condensed", sans-serif;
+  --serif: "Cormorant Garamond", serif;
+  --sans: "DM Sans", sans-serif;
+
+  --page-width: 1500px;
+  --page-padding: clamp(24px, 5vw, 76px);
+}
