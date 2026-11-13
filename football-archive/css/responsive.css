@@ -1,0 +1,89 @@
+@media (max-width: 700px) {
+    :root {
+        --page-padding: 24px;
+    }
+    .masthead {
+        height: 75px;
+    }
+    .brand {
+        font-size: 27px;
+    }
+    .masthead-note {
+        display: none;
+    }
+    .contents-link {
+        font-size: 9px;
+    }
+    .cover-title {
+        padding-top: 30px;
+    }
+    .cover-title h1 {
+        margin-top: 45px;
+        font-size: clamp(69px, 15.8vw, 112px);
+        line-height: 0.82;
+        letter-spacing: -0.04em;
+    }
+    .title-bottom {
+        gap: 15px;
+        margin-top: 25px;
+        font-size: 8px;
+        line-height: 1.5;
+    }
+    .title-bottom p:last-child {
+        max-width: 125px;
+        text-align: right;
+    }
+    .cover-feature {
+        display: flex;
+        flex-direction: column;
+        /* gap: 0; */
+        padding: 25px 0 40px;
+    }
+    .cover-photograph img {
+        min-height: 0;
+        height: auto;
+        aspect-ratio: 0.95;
+    }
+    .cover-photograph figcaption {
+        font-size: 8px;
+    }
+    .cover-description {
+        padding-top: 45px;
+    }
+    .description-number {
+        font-size: 9px;
+    }
+    .cover-description h2 {
+        margin-top: 25px;
+        font-size: clamp(48px, 12vw, 65px);
+    }
+    .cover-description p {
+        max-width: 100%;
+        font-size: 20px;
+        margin-top: 22px;
+    }
+    .enter-link {
+        margin-top: 35px;
+        padding: 20px 0;
+    }
+    .cover-footer {
+        gap: 10px;
+        font-size: 7px;
+    }
+    .cover-footer span:nth-child(2) {
+        max-width: 120px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 370px) {
+    :root {
+        --page-padding: 19px;
+    }
+    .cover-title h1 {
+        font-size: 15.5vw;
+    }
+    .edition-label {
+        font-size: 7px;
+    }
+}

@@ -170,7 +170,7 @@ img {
     width: 100%;
     padding: 10px 0;
     margin-top: auto;
-    border-bottom: 1px solid var(--burgundry);
+    border-bottom: 1px solid var(--ink);
     color: var(--burgundry);
     font-size: 13px;
     letter-spacing: 0.06em;
@@ -186,3 +186,12 @@ img {
     transform: translateX(6px);
 }
 
+.cover-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 0;
+    border-top: 1px solid var(--ink);
+    color: var(--ink-light);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+}
