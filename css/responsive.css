@@ -116,7 +116,7 @@
     .contents-number {
         font-size: 17px;
         font-family: var(--display);
-        color: var(--burgundry);
+        color: var(--burgundy);
         font-weight: 600;
     }
     .contents-title h2 {
@@ -132,7 +132,7 @@
         letter-spacing: 0.08em;
     }
     .contents-arrow {
-        color: var(--burgundry);
+        color: var(--burgundy);
         text-align: right;
         font-size: 22px;
     }

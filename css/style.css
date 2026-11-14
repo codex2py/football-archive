@@ -54,7 +54,7 @@ img {
     display: flex;
     align-items: center;
     gap: 15px;
-    color: var(--burgundry);
+    color: var(--burgundy);
 }
 
 .cover-title {
@@ -71,7 +71,7 @@ img {
 }
 
 .edition-label {
-    color: var(--burgundry);
+    color: var(--burgundy);
 }
 
 .cover-title h1 {
@@ -86,7 +86,7 @@ img {
 
 .cover-title h1 span {
     display: block;
-    color: var(--burgundry);
+    color: var(--burgundy);
 }
 
 .title-period {
@@ -135,7 +135,7 @@ img {
 }
 
 .description-number {
-    color: var(--burgundry);
+    color: var(--burgundy);
     font-size: 11px;
     letter-spacing: 0.1em;
 }
@@ -150,7 +150,7 @@ img {
 
 .cover-description h2 span {
     display: block;
-    color: var(--burgundry);
+    color: var(--burgundy);
     font-style: italic;
 }
 
@@ -171,7 +171,7 @@ img {
     padding: 10px 0;
     margin-top: auto;
     border-bottom: 1px solid var(--ink);
-    color: var(--burgundry);
+    color: var(--burgundy);
     font-size: 13px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -218,7 +218,7 @@ img {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    color: var(--burgundry);
+    color: var(--burgundy);
     font-size: 11px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -235,7 +235,7 @@ img {
 
 .contents-intro h1 span {
     display: block;
-    color: var(--burgundry);
+    color: var(--burgundy);
 }
 
 .contents-intro p {
@@ -266,7 +266,7 @@ img {
 }
 
 .contents-number {
-    color: var(--burgundry);
+    color: var(--burgundy);
     font-family: var(--display);
     font-size: 17px;
     font-weight: 600;
@@ -288,7 +288,7 @@ img {
 }
 
 .contents-arrow {
-    color: var(--burgundry);
+    color: var(--burgundy);
     text-align: right;
     font-size: 22px;
 }
