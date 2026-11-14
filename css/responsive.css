@@ -87,3 +87,26 @@
         font-size: 7px;
     }
 }
+
+/* contents page */
+@media (max-width: 700px) {
+    .contents-intro {
+        display: block;
+        padding: 50px 0 55px;
+    }
+    .contents-kicker {
+        margin-bottom: 45px;
+        font-size: 8px;
+    }
+    .contents-intro h1 {
+        font-size: 21vw;
+    }
+    .contents-intro p {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .contents-item {
+        grid-template-columns: 42px 1fr 25px;
+        min-height: 1px;
+    }
+}
