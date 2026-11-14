@@ -107,6 +107,41 @@
     }
     .contents-item {
         grid-template-columns: 42px 1fr 25px;
-        min-height: 1px;
+        min-height: 105px;
+    }
+    .contents-item:hover {
+        padding: 0 18px;
+        background: transparent;
+    }
+    .contents-number {
+        font-size: 17px;
+        font-family: var(--display);
+        color: var(--burgundry);
+        font-weight: 600;
+    }
+    .contents-title h2 {
+        font-family: var(--serif);
+        font-weight: 500;
+        line-height: 0.9;
+        font-size: clamp(32px, 4vw, 55px);
+    }
+    .contents-title p {
+        color: var(--muted);
+        margin-top: 8px;
+        font-size: 8px;
+        letter-spacing: 0.08em;
+    }
+    .contents-arrow {
+        color: var(--burgundry);
+        text-align: right;
+        font-size: 22px;
+    }
+    .book-footer {
+        display: flex;
+        justify-content: space-between;
+        color: var(--ink-light);
+        padding: 22px 0;
+        font-size: 9px;
+        letter-spacing: 0.08em;
     }
 }
