@@ -303,6 +303,31 @@ img {
 }
 
 
+/* modern era page */
+.modern-page {
+    max-width: var(--page-width);
+    margin: 0 auto;
+    padding: 0 var(--page-padding);
+}
 
+.modern-masthead .brand {
+    font-family: var(--display);
+    font-weight: 800;
+    font-size: 27px;
+    letter-spacing: -0.05em;
+}
 
+.modern-hero {
+    padding-top: 16px;
+}
 
+.modern-hero-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    color: var(--burgundy);
+    
+}
