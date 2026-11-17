@@ -326,8 +326,107 @@ img {
     justify-content: space-between;
     align-items: center;
     gap: 12px;
-    font-size: 9px;
+    font-size: 11px;
     letter-spacing: 0.1em;
     color: var(--burgundy);
-    
+    padding: 10px 0 14px;
 }
+
+.modern-hero-content {
+    position: relative;
+    min-height: 570px;
+    overflow: hidden;
+    color: var(--paper); 
+    background: #211e1b;
+}
+
+.modern-hero-copy {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    padding: 60px 38px 35px;
+}
+
+.modern-hero-label {
+    display: block;
+    margin-bottom: 38px;
+    color: #d4b7a8;
+    font-size: 9px;
+    letter-spacing: 0.15em;
+}
+
+.modern-hero-copy h1 {
+    position: relative;
+    z-index: 2;
+    width: 85%;
+    font-family: var(--display);
+    font-weight: 800;
+    font-size: clamp(95px, 13vw, 180px);
+    letter-spacing: -0.065em;
+    line-height: 0.76;
+}
+
+.modern-hero-copy h1 span:first-child {
+    display: block;
+    color: #c8a69a;
+}
+
+.modern-hero-copy h1 .modern-period {
+    display: inline;
+    color: var(--burgundy);
+}
+
+.modern-hero-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 57%;
+    height: 100%;
+}
+
+.modern-hero-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    /* filter: grayscale(100%) contrast(1.1); */
+}
+
+.modern-hero-image::after {
+    position: absolute;
+    inset: 0;
+    content: "";
+    background: linear-gradient(90deg, #211e1b 0%, rgba(33, 30, 27, 0.55) 25%, rgba(33, 30, 27, 0.05) 100%);
+}
+
+.modern-hero-image figcaption {
+    position: absolute;
+    z-index: 2;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+    color: var(--paper-dark);
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+}
+
+.modern-hero-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin-top: 48px;
+    padding-top: 12px;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    color: var(--paper-dark);
+    border-top: 1px solid var(--paper-dark);
+}
+
+
+
+
+
