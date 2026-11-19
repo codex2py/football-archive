@@ -405,7 +405,8 @@ img {
     right: 20px;
     bottom: 20px;
     left: 20px;
-    color: var(--paper-dark);
+    /* color: var(--paper-dark); */
+    color: white;
     display: flex;
     justify-content: space-between;
     gap: 12px;
@@ -422,9 +423,103 @@ img {
     padding-top: 12px;
     font-size: 11px;
     letter-spacing: 0.12em;
-    color: var(--paper-dark);
+    /* color: var(--paper-dark); */
+    color: white;
     border-top: 1px solid var(--paper-dark);
 }
+
+.modern-hero-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    min-height: 43px;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    color: var(--ink-light);
+    border-bottom: 1px solid var(--ink);
+}
+
+.modern-opening {
+    display: grid;
+    grid-template-columns: 0.55fr 1.7fr 0.65fr;
+    gap: 38px;
+    padding: 85px 4% 95px;
+}
+
+.opening-label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    color: var(--burgundy);
+}
+
+.opening-content {
+    max-width: 700px;
+}
+
+.opening-overline {
+    color: var(--burgundy);
+    font-size: 11px;
+    letter-spacing: 0.13em;
+}
+
+.opening-content h2 {
+    margin: 23px 0;
+    font-family: var(--serif);
+    font-size: clamp(54px, 6vw, 82px);
+    font-weight: 500;
+    line-height: 0.94;
+    letter-spacing: -0.043em;
+}
+
+.opening-lead {
+    font-family: var(--serif);
+    font-size: 25px;
+    line-height: 1.35;
+    margin: 28px 0 22px;
+}
+
+.opening-content > p:not(.opening-overline):not(.opening-lead) {
+    color: var(--ink-light);
+    margin-bottom: 16px;
+    font-size: 14px;
+    line-height: 1.85;
+}
+
+.opening-note {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    align-self: start;
+    padding: 20px 0;
+    border-top: 1px solid var(--ink);
+    border-bottom: 1px solid var(--ink-light);
+}
+
+.note-number {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 55px;
+    letter-spacing: -0.04em;
+}
+
+.note-title {
+    color: var(--burgundy);
+    font-size: 10px;
+}
+
+.opening-note p {
+    color: var(--ink-light);
+    font-size: 13px;
+    line-height: 1.65;
+}
+
+
 
 
 
